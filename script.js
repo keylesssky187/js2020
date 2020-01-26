@@ -1,5 +1,5 @@
 console.log("all ok")
-punkt2_2_4()
+punkt2_3()
 
 function punkt2_1() {
 	//разница в сравнении
@@ -85,4 +85,17 @@ function key(fst, snd){
     		return 1
 
     }
+}
+
+function punkt2_3(){
+	 let a = 3, b = 5;
+	 let c;
+	 if (a > b){
+	 	c = a
+	 }else{
+	 	c = b
+	 }	
+	 console.log(c)
+	 c = a > b ? a : b;
+	 console.log(c)
 }
