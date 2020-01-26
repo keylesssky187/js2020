@@ -1,5 +1,5 @@
 console.log("all ok")
-punkt2_2()
+punkt2_2_2()
 
 function punkt2_1() {
 	//разница в сравнении
@@ -30,4 +30,18 @@ function punkt2_2() {
     console.log(s.toLowerCase())
     console.log(s.toUpperCase())
     console.log(s.trim()) //обрезает пробельные символы в начале и в конце
+
+}
+
+function punkt2_2_2(){
+   //матем функции
+   console.log(Math.pow(2, 4)) //возведение в степень
+   console.log(Math.sqrt(9))
+   console.log(Math.ceil(1.25))
+   console.log(Math.floor(1.25))
+   console.log(Math.round(1.25))
+   console.log(Math.max(1,2,3,4,5,6))
+   console.log(Math.min(1,2,3,4))
+   console.log(Math.sign(0))
+   console.log(Math.sign(34))
 }
