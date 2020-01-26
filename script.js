@@ -1,5 +1,5 @@
 console.log("all ok")
-punkt2_2_3()
+punkt2_2_4()
 
 function punkt2_1() {
 	//разница в сравнении
@@ -63,4 +63,26 @@ function punkt2_2_3() {
 		return x% 2 == 1;
 	})
 	console.log(c)
+}
+
+function punkt2_2_4(){
+	//сортировка
+	let a = [1,3,4555,5565,56,56,5,]
+	let b = a.sort();
+	console.log(b)
+	let c = a.sort(key)
+	console.log(c)
+}
+
+
+function key(fst, snd){
+	if (fst < snd){
+		return -1;
+    }else{
+    	if (fst === snd)
+    		return 0
+    	else
+    		return 1
+
+    }
 }
